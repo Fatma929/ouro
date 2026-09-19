@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OURO | Transforming Waste into Wealth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .ouro-green { color: #008A5E; }
+        .ouro-bg { background-color: #008A5E; }
+        .ouro-bg-light { background-color: #F0FDF4; }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        .gradient-text { background: linear-gradient(135deg, #008A5E 0%, #065F46 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i data-lucide="leaf" class="ouro-green w-8 h-8"></i>
+                <span class="text-2xl font-800 tracking-tighter ouro-green italic">OURO</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-semibold text-sm">
+                <a href="#problem" class="hover:ouro-green transition">The Problem</a>
+                <a href="#solution" class="hover:ouro-green transition">Our Solution</a>
+                <a href="#market" class="hover:ouro-green transition">Market</a>
+                <a href="#model" class="hover:ouro-green transition">Business Model</a>
+                <a href="#team" class="ouro-bg text-white px-5 py-2.5 rounded-full hover:opacity-90 transition shadow-lg shadow-green-900/20">Partner With Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Page 1) -->
+    <section class="pt-40 pb-20 px-6 relative overflow-hidden">
+        <div class="ouro-bg-light absolute top-0 left-0 w-full h-[1000px] -z-10 rounded-b-[100px] opacity-50"></div>
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-8 border border-green-100">
+                <span class="flex h-2 w-2 rounded-full ouro-bg animate-pulse"></span>
+                <span class="text-xs font-bold uppercase tracking-widest text-green-700">A Digital Ecosystem for Circular Economy</span>
+            </div>
+            <h1 class="text-6xl md:text-8xl font-800 tracking-tight mb-8 leading-tight">
+                Transforming <span class="gradient-text italic">Waste</span> <br>into <span class="gradient-text italic">Wealth</span>
+            </h1>
+            <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                We empower facilities to monetize their waste while providing factories with the purest industrial raw materials through 100% source sorting.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#solution" class="ouro-bg text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-xl shadow-green-900/20 hover:-translate-y-1 transition-all">Explore the Solution</a>
+                <a href="#market" class="bg-white text-slate-900 border border-slate-200 px-10 py-4 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all">View Market Opportunity</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem (Page 2) -->
+    <section id="problem" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=800" alt="Waste issues" class="rounded-[40px] shadow-2xl">
+                    <div class="absolute -bottom-10 -right-10 bg-white p-8 rounded-[30px] shadow-xl max-w-xs border border-slate-100">
+                        <p class="text-sm font-bold text-red-500 uppercase mb-2">The Impact</p>
+                        <p class="text-slate-600 italic">"Turning waste purely into an expense for centers."</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-800 mb-12 tracking-tight">The Bottleneck in <br><span class="ouro-green">Modern Management</span></h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-6">
+                            <div class="w-14 h-14 shrink-0 rounded-2xl bg-red-50 flex items-center justify-center text-red-600">
+                                <i data-lucide="trending-down"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">High Operational Costs</h3>
+                                <p class="text-slate-600">Facilities incur massive cleaning costs with zero financial return for the center.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="w-14 h-14 shrink-0 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-600">
+                                <i data-lucide="layers-3"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Loss of Material Value</h3>
+                                <p class="text-slate-600">Mixing waste degrades the value of plastics and paper, destroying their viability as raw materials.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="w-14 h-14 shrink-0 rounded-2xl bg-purple-50 flex items-center justify-center text-purple-600">
+                                <i data-lucide="alert-triangle"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2">Environmental Hazard</h3>
+                                <p class="text-slate-600">Accumulated waste causes unpleasant odors and severe greenhouse gas emissions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution (Page 4) -->
+    <section id="solution" class="py-24 px-6 bg-slate-900 text-white rounded-[60px] mx-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-800 mb-6">The OURO Solution</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Replacing traditional disposal with a high-purity digital ecosystem.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <i data-lucide="sparkles" class="ouro-green mb-6 w-10 h-10"></i>
+                    <h4 class="text-lg font-bold mb-3">Free Waste Management</h4>
+                    <p class="text-sm text-slate-400">Professional cleaning in exchange for free waste management services.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <i data-lucide="filter" class="ouro-green mb-6 w-10 h-10"></i>
+                    <h4 class="text-lg font-bold mb-3">100% Source Sorting</h4>
+                    <p class="text-sm text-slate-400">Meticulous sorting to guarantee maximum material purity for factories.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <i data-lucide="database" class="ouro-green mb-6 w-10 h-10"></i>
+                    <h4 class="text-lg font-bold mb-3">Digital Inventory Hub</h4>
+                    <p class="text-sm text-slate-400">Real-time platform connecting facility inventory to factory purchase orders.</p>
+                </div>
+                <div class="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
+                    <i data-lucide="users" class="ouro-green mb-6 w-10 h-10"></i>
+                    <h4 class="text-lg font-bold mb-3">Interactive Awareness</h4>
+                    <p class="text-sm text-slate-400">Programs transforming visitors into active partners in environmental protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market (Page 3) -->
+    <section id="market" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-800 mb-16 text-center tracking-tight">Market Opportunity <br><span class="ouro-green">Egypt & Beyond</span></h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-[40px] shadow-sm border border-slate-100 text-center">
+                    <p class="text-slate-500 font-bold uppercase text-xs tracking-[0.2em] mb-4">TAM</p>
+                    <h3 class="text-5xl font-800 ouro-green mb-4">90-100M</h3>
+                    <p class="font-bold mb-2">Tons Annually</p>
+                    <p class="text-sm text-slate-500 italic">Total Addressable Market in Egypt (Municipal, Agricultural, Industrial).</p>
+                </div>
+                <div class="bg-white p-10 rounded-[40px] shadow-sm border border-slate-100 text-center">
+                    <p class="text-slate-500 font-bold uppercase text-xs tracking-[0.2em] mb-4">SAM</p>
+                    <h3 class="text-5xl font-800 ouro-green mb-4">B2B</h3>
+                    <p class="font-bold mb-2">Compliance Sector</p>
+                    <p class="text-sm text-slate-500 italic">Driven by national strategies to reduce landfill reliance & ESG reporting.</p>
+                </div>
+                <div class="bg-white p-10 rounded-[40px] shadow-sm border border-slate-100 text-center">
+                    <p class="text-slate-500 font-bold uppercase text-xs tracking-[0.2em] mb-4">SOM</p>
+                    <h3 class="text-5xl font-800 ouro-green mb-4">Youth</h3>
+                    <p class="font-bold mb-2">Centers & Clubs</p>
+                    <p class="text-sm text-slate-500 italic">Universities and sports clubs needing digital cost-cutting solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Revenue Model (Page 10) -->
+    <section id="model" class="py-24 px-6 ouro-bg-light">
+        <div class="max-w-4xl mx-auto bg-white rounded-[50px] shadow-2xl p-12 overflow-hidden relative">
+            <div class="absolute top-0 right-0 p-10 opacity-10">
+                <i data-lucide="dollar-sign" class="w-40 h-40"></i>
+            </div>
+            <h2 class="text-4xl font-800 mb-12">The Revenue Model</h2>
+            <div class="grid gap-8 relative z-10">
+                <div class="flex items-center justify-between p-6 bg-slate-50 rounded-3xl border border-slate-100 hover:bg-white hover:shadow-lg transition">
+                    <div class="flex gap-4 items-center">
+                        <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-700">
+                            <i data-lucide="percent"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sales Commission</h4>
+                            <p class="text-sm text-slate-500">From selling extracted raw materials to factories.</p>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-800 ouro-green">50% Cut</span>
+                </div>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="p-6 bg-slate-50 rounded-3xl border border-slate-100">
+                        <h4 class="font-bold mb-2">ESG Subscriptions</h4>
+                        <p class="text-sm text-slate-500">Paid access for certified real-time emission dashboards.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-3xl border border-slate-100">
+                        <h4 class="font-bold mb-2">Traceability Services</h4>
+                        <p class="text-sm text-slate-500">Digital chain-of-custody verification fees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Analysis (Page 8) -->
+    <section class="py-24 px-6">
+        <div class="max-w-5xl mx-auto overflow-hidden rounded-[30px] border border-slate-200 shadow-sm">
+            <table class="w-full text-left bg-white border-collapse">
+                <thead>
+                    <tr class="ouro-bg text-white">
+                        <th class="p-6 font-bold">Platform</th>
+                        <th class="p-6 font-bold">Sorting Mechanism</th>
+                        <th class="p-6 font-bold">Resource Quality</th>
+                    </tr>
+                </thead>
+                <tbody class="text-sm">
+                    <tr class="border-b bg-green-50/50">
+                        <td class="p-6 font-bold">OURO</td>
+                        <td class="p-6">100% Sorting at source</td>
+                        <td class="p-6 font-bold text-green-700">Extremely Pure</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="p-6 font-semibold">Markoon</td>
+                        <td class="p-6">Post-collection</td>
+                        <td class="p-6">Mixed</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="p-6 font-semibold">iRecycle</td>
+                        <td class="p-6">Logistics sorting</td>
+                        <td class="p-6">Medium/High</td>
+                    </tr>
+                    <tr>
+                        <td class="p-6 font-semibold">Bekia / Go Clean</td>
+                        <td class="p-6">Household sorting</td>
+                        <td class="p-6">Medium</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Team (Page 11) -->
+    <section id="team" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-800 mb-16 italic">Join the Movement.</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="group">
+                    <div class="w-24 h-24 bg-white shadow-xl rounded-full mx-auto flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="scale" class="ouro-green w-10 h-10"></i>
+                    </div>
+                    <h4 class="text-xl font-bold">Fatma Elzahraa</h4>
+                    <p class="text-slate-500">Environmental Lawyer & <br>Sustainability Analyst</p>
+                </div>
+                <div class="group">
+                    <div class="w-24 h-24 bg-white shadow-xl rounded-full mx-auto flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="briefcase" class="ouro-green w-10 h-10"></i>
+                    </div>
+                    <h4 class="text-xl font-bold">Asmaa Mohamed</h4>
+                    <p class="text-slate-500">Business Developer</p>
+                </div>
+                <div class="group">
+                    <div class="w-24 h-24 bg-white shadow-xl rounded-full mx-auto flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="beaker" class="ouro-green w-10 h-10"></i>
+                    </div>
+                    <h4 class="text-xl font-bold">Radwa Mohamed</h4>
+                    <p class="text-slate-500">Chemistry Specialist</p>
+                </div>
+            </div>
+            
+            <div class="mt-20 p-12 bg-white rounded-[40px] shadow-xl inline-block border border-slate-100">
+                <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4">Contact Our Leadership</p>
+                <a href="mailto:partner@ouro.com" class="text-3xl md:text-4xl font-800 hover:ouro-green transition block mb-2">partner@ouro.com</a>
+                <a href="http://www.ouro-eco.com" class="text-slate-500 font-semibold hover:underline">www.ouro-eco.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <i data-lucide="leaf" class="ouro-green w-6 h-6"></i>
+                <span class="text-xl font-800 tracking-tighter ouro-green italic">OURO</span>
+            </div>
+            <p class="text-slate-400 text-sm">© 2025 OURO Digital Ecosystem. All rights reserved.</p>
+            <div class="flex gap-6">
+                <i data-lucide="linkedin" class="w-5 h-5 text-slate-400 hover:ouro-green cursor-pointer"></i>
+                <i data-lucide="twitter" class="w-5 h-5 text-slate-400 hover:ouro-green cursor-pointer"></i>
+                <i data-lucide="instagram" class="w-5 h-5 text-slate-400 hover:ouro-green cursor-pointer"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
